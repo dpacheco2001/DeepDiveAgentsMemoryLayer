@@ -16,21 +16,4 @@ This research repository is dedicated to exploring and understanding the memory 
 This research primarily leverages:
 - [LangGraph](https://github.com/langchain-ai/langgraph): For building structured, stateful multi-agent systems
 - [LangChain](https://github.com/langchain-ai/langchain): Core framework for language model applications
-- OpenAI models: For agent intelligence and reasoning capabilities
-- DeepSeek models: For alternative reasoning approaches
-- Custom memory storage solutions: For experimenting with different memory persistence strategies
 
-## Setup & Installation
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/DeepDiveAgentsMemoryLayer.git
-
-# Create a virtual environment
-python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Set up environment variables
-# Copy .env.example to .env and add your API keys
